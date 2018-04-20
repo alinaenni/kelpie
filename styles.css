@@ -1,1 +1,77 @@
-
+body {
+  background-image: url('scotland.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #aaa;
+  color: #000;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 14px;
+}
+#navi {
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  vertical-align: middle;
+  line-height: 80px;
+  padding: 0px;
+  color: #fff;
+  top: 0px;
+}
+#navi ul {
+  width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px;
+}
+#navi li {
+  display: inline-block;
+  width: 19%;
+  -webkit-transition-duration: 1.2s; /* Safari */
+  transition-duration: 1.2s;
+}
+#navi li:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+header {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+}
+#heading {
+  width: 1050px;
+  margin: 0 auto;
+  height: 450px;
+  line-height: 450px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 54px;
+  text-align: center;
+}
+#content {
+  background-color: rgba(250,250,250,0.95);
+  width: 1050px;
+  min-height: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 50px 20px 50px;
+  line-height: 28px;
+}
+footer {
+  width: 1050px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: rgba(250,250,250,0.5);
+  font-size: 12;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
