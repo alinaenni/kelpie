@@ -3,75 +3,193 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-color: #aaa;
-  color: #000;
+  color: #565656;
   margin: 0;
-  font-family: sans-serif;
+  line-height: 36px;
+  font-family: 'Didact Gothic', sans-serif;
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
 }
 #navi {
-  background-color: rgba(0,0,0,0.4);
-  position: fixed;
+  background-color: rgba(0,0,0,0.6);
   width: 100%;
-  height: 80px;
+  height: 90px;
   margin: 0 auto;
   vertical-align: middle;
-  line-height: 80px;
+  overflow: hidden;
+  line-height: 90px;
   padding: 0px;
   color: #fff;
   top: 0px;
 }
 #navi ul {
-  width: 1050px;
+  max-width: 1100px;
   margin: 0 auto;
   text-align: center;
-  text-transform: uppercase;
   padding: 0px;
 }
 #navi li {
   display: inline-block;
-  width: 19%;
+  margin: 0px;
+  width: 25%;
   -webkit-transition-duration: 1.2s; /* Safari */
   transition-duration: 1.2s;
 }
 #navi li:hover {
   background-color: rgba(0,0,0,0.2);
 }
+#navi a {
+  font-family: 'Nixie One', sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: rgba(250,250,250,0.7);
+  text-shadow: 0px 0px 1px #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 header {
   background-color: rgba(0,0,0,0.5);
   width: 100%;
-  height: 450px;
+  height: 460px;
   margin: 0 auto;
 }
 #heading {
-  width: 1050px;
+  max-width: 1050px;
   margin: 0 auto;
-  height: 450px;
-  line-height: 450px;
+  height: 400px;
+  line-height: 390px;
   vertical-align: middle;
   color: #fff;
-  font-size: 54px;
+  font-size: 66px;
   text-align: center;
+}
+.one {
+  font-family: 'Nixie One', cursive;
+  font-size: 54px;
+  margin-right: 18px;
+  cursor: default;
+}
+.two {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 78px;
+  text-shadow: 0px 0px 6px rgba(250,250,250,0.3);
+  cursor: default;
 }
 #content {
   background-color: rgba(250,250,250,0.95);
-  width: 1050px;
+  max-width: 1100px;
   min-height: 600px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 20px 50px 20px 50px;
-  line-height: 28px;
+  padding: 30px 50px 30px 50px;
+  line-height: 32px;
 }
-footer {
-  width: 1050px;
+#content h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #64844f;
+}
+#content h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #598279;
+  margin-top: 30px;
+}
+#extra {
+  max-width: 1100px;
+  min-height: 200px;
   margin: 0 auto;
   box-sizing: border-box;
-  background-color: rgba(0,0,0,0.5);
-  padding: 20px;
-  margin-bottom: 100px;
+  padding: 50px 50px 50px 50px;
+  color: #d1d1d1;
+  background-color: rgba(0,0,0,0.6);
+}
+#extra h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #cdd8d4;
+}
+#extra a {
+  color: #d1d1d1;
+  text-decoration: none;
+}
+table {
+  width: 70%;
+  margin: 0 auto;
+  color: #d1d1d1;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+}
+td {
+  width: 50%;
+}
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.8);
+  padding: 25px;
+  margin-bottom: 150px;
   text-align: center;
   color: rgba(250,250,250,0.5);
-  font-size: 12;
+  font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  font-family: 'Nixie One', sans-serif;
+  letter-spacing: 3px;
+}
+strong {
+  color: #91c499;
+}
+@media (max-width: 900px) {
+  body {
+    background-position: center center;
+    font-size: 18px;
+  }
+  #navi {
+    height: auto;
+  }
+  #navi li {
+    display: inline-block;
+    width: 49.9%;
+    text-align: center;
+  }
+  .le { border-right: 1px solid rgba(250,250,250,0.04); border-bottom: 1px solid rgba(250,250,250,0.04); }
+  .le2 { border-bottom: none; border-right: 1px solid rgba(250,250,250,0.04); }
+  .ri { border-bottom: 1px solid rgba(250,250,250,0.04);
+  }
+  .one {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  .two {
+    font-size: 52px;
+  }
+  #content {
+    line-height: 34px;
+  }
+  #extra {
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px 20px 50px 20px;
+  }
+  table {
+    width: 100%;
+  }
+  td {
+    width: 50%;
+    padding: 0px;
+    line-height: 24px;
+    font-size: 14px;
+  }
 }
