@@ -149,6 +149,10 @@ footer {
   font-family: 'Nixie One', sans-serif;
   letter-spacing: 3px;
 }
+footer a {
+  color: rgba(250,250,250,0.5);
+  text-decoration: none;
+}
 strong {
   color: #91c499;
 }
