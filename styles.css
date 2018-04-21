@@ -159,6 +159,7 @@ strong {
 @media (max-width: 900px) {
   body {
     background-position: center center;
+    background-attachment: scroll;
     font-size: 18px;
   }
   #navi {
