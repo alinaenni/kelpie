@@ -162,7 +162,7 @@ strong {
   }
   #navi li {
     display: inline-block;
-    width: 49.9%;
+    width: 49%;
     text-align: center;
   }
   .le { border-right: 1px solid rgba(250,250,250,0.04); border-bottom: 1px solid rgba(250,250,250,0.04); }
@@ -170,14 +170,15 @@ strong {
   .ri { border-bottom: 1px solid rgba(250,250,250,0.04);
   }
   .one {
-    font-size: 36px;
+    font-size: 30px;
     margin-right: 10px;
   }
   .two {
-    font-size: 52px;
+    font-size: 44px;
   }
   #content {
     line-height: 34px;
+    padding: 30px 30px 30px 30px;
   }
   #extra {
     background-color: rgba(0,0,0,0.7);
