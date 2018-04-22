@@ -158,8 +158,10 @@ strong {
 }
 @media (max-width: 900px) {
   body {
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-size: 18px;
   }
   #navi {
